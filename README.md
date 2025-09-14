@@ -101,7 +101,7 @@ Hybrid recommendations example for different user and number of recommendations:
 
 Visual similarity search example:
 ![Visual Recommendations Screenshot](assets/visual_recommendations1.png)
-![Visual Recommendations Screenshot](assets/visual_recommendations2.png)
+![Visual Recommendations Screenshot](assets/visual_recommendations2_2.png)
 
 ---
 
@@ -129,6 +129,7 @@ Visual similarity search example:
 📧 Contact: [www.linkedin.com/in/axel-heussner](https://www.linkedin.com/in/axel-heussner)
 
 ```
+
 
 
 
