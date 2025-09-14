@@ -1,4 +1,3 @@
-````markdown
 # 👗 Fashion Recommender System
 
 This project is a portfolio demonstration of different recommender system approaches applied to fashion data.  
@@ -121,5 +120,6 @@ Visual similarity search example:
 📧 Contact: [www.linkedin.com/in/axel-heussner](https://www.linkedin.com/in/axel-heussner)
 
 ```
+
 
 
