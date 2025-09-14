@@ -6,7 +6,7 @@ It shows how collaborative filtering, content-based filtering, hybrid recommenda
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ### 1. Clone the repository
 ```bash
@@ -47,10 +47,10 @@ fashion-recommender/
 
 ---
 
-## 📊 Data: DeepFashion
+## Data: DeepFashion
 
 The recommender system uses the **DeepFashion dataset** for product images:
-👉 [DeepFashion Dataset](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
+[DeepFashion Dataset](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
 
 Notes:
 
@@ -97,7 +97,7 @@ Visual similarity search example:
 
 ---
 
-## ⚠️ Disclaimers
+## Disclaimers
 
 1. **Hybrid vs Visual Separation**
    For this demo, the hybrid recommender (collaborative + content-based filtering) is kept **separate** from the visual recommender.
@@ -121,4 +121,5 @@ Visual similarity search example:
 📧 Contact: [www.linkedin.com/in/axel-heussner](https://www.linkedin.com/in/axel-heussner)
 
 ```
+
 
