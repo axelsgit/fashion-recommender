@@ -9,7 +9,7 @@ It shows how collaborative filtering, content-based filtering, hybrid recommenda
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/fashion-recommender.git
+git clone https://github.com/axelsgit/fashion-recommender.git
 cd fashion-recommender
 ````
 
@@ -19,7 +19,26 @@ cd fashion-recommender
 pip install -r requirements.txt
 ```
 
-### 3. Run the demo app
+### 3. Generate data and run the demo app 
+
+* Product CSVs (`products.csv`, `users.csv`, `user_interactions.csv`) can be **replicated** by running:
+
+  ```bash
+  python generate_data.py
+  ```
+* Visual features (`features.pkl`, `imagefiles.pkl`) can be **generated** by running:
+
+  ```bash
+  python -c "from visual_recommender import build_feature_index_from_catalog; build_feature_index_from_catalog('products.csv')"
+  ```
+
+* **Expose a REST API for recommendations** by running:
+
+```bash
+python -m uvicorn app:app --reload
+```
+
+* Demo UI can be **started** by running:
 
 ```bash
 streamlit run demo.py
@@ -54,16 +73,6 @@ The recommender system uses the **DeepFashion dataset** for product images:
 Notes:
 
 * A manual column `category_id` was added to `list_category_cloth.txt` to simplify processing.
-* Product CSVs (`products.csv`, `users.csv`, `user_interactions.csv`) can be **replicated** by running:
-
-  ```bash
-  python generate_data.py
-  ```
-* Visual features (`features.pkl`, `imagefiles.pkl`) can be **generated** by running:
-
-  ```bash
-  python -c "from visual_recommender import build_feature_index_from_catalog; build_feature_index_from_catalog('products.csv')"
-  ```
 
 ---
 
@@ -120,6 +129,7 @@ Visual similarity search example:
 📧 Contact: [www.linkedin.com/in/axel-heussner](https://www.linkedin.com/in/axel-heussner)
 
 ```
+
 
 
 
